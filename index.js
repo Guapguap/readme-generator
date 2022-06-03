@@ -1,7 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 
-const generateReadme = require("./utils/generateMarkdown")
+// const generateReadme = require("./utils/generateReadme")
 
 //Prompt the user questions to populate the README.md
 const promptUser = () => {
@@ -93,7 +93,7 @@ const promptUser = () => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Please enter a usage description!');
+                    console.log('Please enter a usage description.');
                     return false; 
                 }
             }
@@ -115,7 +115,7 @@ const promptUser = () => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Please choose a license.');
+                    console.log('Please choose a license: ');
                     return false; 
                 }
             }
@@ -130,7 +130,7 @@ const promptUser = () => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Please enter the contributor(s) to this project.');
+                    console.log('Please enter the contributor(s) to this project: ');
                     return false; 
                 }
             }
@@ -140,7 +140,7 @@ const promptUser = () => {
         {
             type: "input",
             name: "tests",
-            message: "If applicable, provide any tests written for your application."
+            message: "If applicable, provide any tests written for your application: "
         },
 
          // questions prompt 
@@ -152,6 +152,21 @@ const promptUser = () => {
     
     ]);
 } 
+
+// function call to initialize program
+promptUser()
+// returns user input 
+.then(answers => {
+    return generateReadme(answers);
+})
+// using data to display on page 
+.then(data => {
+    return writeFile(data);
+})
+// catches errors 
+.catch(err => {
+    console.log(err)
+})
 
 // function to write README file using file system 
 const writeFile = data => {
@@ -170,17 +185,3 @@ const writeFile = data => {
     })
 }; 
 
-// function call to initialize program
-promptUser()
-// returns user input 
-.then(answers => {
-    return generateReadme(answers);
-})
-// using data to display on page 
-.then(data => {
-    return writeFile(data);
-})
-// catches errors 
-.catch(err => {
-    console.log(err)
-})
