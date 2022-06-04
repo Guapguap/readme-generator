@@ -1,7 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 
-// const generateReadme = require("./utils/generateReadme")
+const generateReadme = require("./util/generateReadme")
 
 //Prompt the user questions to populate the README.md
 const promptUser = () => {
@@ -171,7 +171,7 @@ promptUser()
 // function to write README file using file system 
 const writeFile = data => {
 
-    fs.writeFile('README.md', data, err => {
+    fs.writeFile('./dist/README.md', data, err => {
 
         // logs in the console that there is an error
         if (err) {
