@@ -1,7 +1,7 @@
  undefined
     
     ## Description 
-    gra
+    description
     ## Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
@@ -13,7 +13,7 @@
     ## Installation 
     undefined
     ## Usage 
-    g
+    use app
     ## License 
     This project is license under Apache
     ## Contributing 
@@ -21,4 +21,4 @@
     ## Tests
     undefined
     ## Questions
-    If you have any questions about this projects, please contact me directly at egtha. You can view more of my projects at https://github.com/undefined.
+    If you have any questions about this projects, please contact me directly at email. You can view more of my projects at https://github.com/undefined.

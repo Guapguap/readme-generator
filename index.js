@@ -157,11 +157,13 @@ const promptUser = () => {
 promptUser()
 // returns user input 
 .then(answers => {
+    console.log(answers);
     return generateReadme(answers);
 })
 // using data to display on page 
-.then(data => {
-    return writeFile(data);
+.then(outputData => {
+    console.log(outputData);
+    return writeFile(outputData);
 })
 // catches errors 
 .catch(err => {
