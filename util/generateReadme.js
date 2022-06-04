@@ -1,6 +1,10 @@
 const generateReadme = data => {
-    return ` ${data.title}
+    return ` ${data.projectTitle}
     
+    ## Github Username and Email
+    ${data.username}
+    ${data.email}
+
     ## Description 
     ${data.description}
     ## Table of Contents
@@ -12,7 +16,7 @@ const generateReadme = data => {
     * [Questions](#questions)
     
     ## Installation 
-    ${data.install}
+    ${data.installation}
     ## Usage 
     ${data.usage}
     ## License 
@@ -20,9 +24,9 @@ const generateReadme = data => {
     ## Contributing 
     ${data.contributors}
     ## Tests
-    ${data.test}
+    ${data.tests}
     ## Questions
-    If you have any questions about this projects, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
+    ${data.questions}
 `;
 }
 

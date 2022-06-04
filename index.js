@@ -124,7 +124,7 @@ const promptUser = () => {
          // contributor prompt 
         {
             type: "input",
-            name: "contributing",
+            name: "contributors",
             message: "Who contributed to this project?",
             validate: nameInput => {
                 if (nameInput) {
@@ -147,7 +147,7 @@ const promptUser = () => {
         {
             type: "input",
             name: "questions",
-            message: "What do I do if I have an issue? "
+            message: "Any questions regarding the application?"
         }
     
     ]);
