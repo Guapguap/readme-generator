@@ -1,12 +1,12 @@
  title
     
-    ## Github Username and Email
+    # Github Username and Email
     username
-    email
+    clear
 
-    ## Description 
+    # Description 
     description
-    ## Table of Contents
+    # Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
     * [License](#license)
@@ -14,15 +14,15 @@
     * [Tests](#tests)
     * [Questions](#questions)
     
-    ## Installation 
+    # Installation 
     installation
-    ## Usage 
+    # Usage 
     usage
-    ## License 
+    # License 
     This project is license under Apache
-    ## Contributing 
+    # Contributing 
     contributor
-    ## Tests
+    # Tests
     tests
-    ## Questions
+    # Questions
     questions
