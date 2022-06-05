@@ -1,29 +1,33 @@
- dgfh
+ 
+# README-Generator
 
-# Github Username and Email
-username
-ght
+![badge](https://img.shields.io/badge/license-MIT-orange)<br />
 
 # Description: 
-fg
+The user's input generates a README.md file
 
 # Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contributing](#contributing)
+* [Contributors](#contributors)
 * [Tests](#tests)
 * [Questions](#questions)
 
 # Installation:
-fgb
-# Usage 
-db
+Download node.js, npm, and inquire.
+# Usage: 
+Enter node index.js into the terminal to answer the prompts
 # License:
-This project is license under Apache
-# Contributing 
-dgz
+![badge](https://img.shields.io/badge/license-MIT-orange)
+<br />
+This application is covered by the MIT license. 
+# Contributors 
+Alberto Londono
 # Tests:
-dbz
-# Questions
-bsdz
+Ran trial and error functionality tests
+# Questions:
+Github Profile: [Github Profile](https://github.com/Guapguap)
+<br>
+Email me at: londono.alberto110@gmail.com
+

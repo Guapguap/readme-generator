@@ -1,9 +1,8 @@
 const generateReadme = (data) => {
-  return ` ${data.projectTitle}
+  return ` 
+# ${data.projectTitle}
 
-# Github Username and Email
-${data.username}
-${data.email}
+![badge](https://img.shields.io/badge/license-${data.license}-orange)<br />
 
 # Description: 
 ${data.description}
@@ -18,16 +17,21 @@ ${data.description}
 
 # Installation:
 ${data.installation}
-# Usage 
+# Usage: 
 ${data.usage}
 # License:
-This project is license under ${data.license}
+![badge](https://img.shields.io/badge/license-${data.license}-orange)
+<br />
+This application is covered by the ${data.license} license. 
 # Contributors 
 ${data.contributors}
 # Tests:
 ${data.tests}
-# Questions
-${data.questions}
+# Questions:
+Github Profile: [Github Profile](https://github.com/${data.username})
+<br>
+Email me at: ${data.email}
+
 `;
 };
 

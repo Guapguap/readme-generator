@@ -103,7 +103,7 @@ const promptUser = () => {
         {
             type: "list",
             name: "license",
-            message: "Chose the appropriate license for this project: ",
+            message: "Choose the appropriate license for this project: ",
             choices: [
                 "Apache",
                 "GNU",
@@ -141,15 +141,7 @@ const promptUser = () => {
             type: "input",
             name: "tests",
             message: "If applicable, provide any tests written for your application: "
-        },
-
-         // questions prompt 
-        {
-            type: "input",
-            name: "questions",
-            message: "Any questions regarding the application?"
         }
-    
     ]);
 } 
 
