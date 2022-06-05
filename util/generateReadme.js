@@ -1,13 +1,13 @@
 const generateReadme = data => {
     return ` ${data.projectTitle}
     
-    ## Github Username and Email
+    # Github Username and Email
     ${data.username}
     ${data.email}
 
-    ## Description 
+    # Description 
     ${data.description}
-    ## Table of Contents
+    # Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
     * [License](#license)
@@ -15,17 +15,17 @@ const generateReadme = data => {
     * [Tests](#tests)
     * [Questions](#questions)
     
-    ## Installation 
+    # Installation 
     ${data.installation}
-    ## Usage 
+    # Usage 
     ${data.usage}
-    ## License 
+    # License 
     This project is license under ${data.license}
-    ## Contributing 
+    # Contributing 
     ${data.contributors}
-    ## Tests
+    # Tests
     ${data.tests}
-    ## Questions
+    # Questions
     ${data.questions}
 `;
 }
