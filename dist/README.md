@@ -1,10 +1,10 @@
  
-# README-Generator
+# Project Title
 
 ![badge](https://img.shields.io/badge/license-MIT-orange)<br />
 
 # Description: 
-The user's input generates a README.md file
+Project Description
 
 # Table of Contents
 * [Installation](#installation)
@@ -15,19 +15,19 @@ The user's input generates a README.md file
 * [Questions](#questions)
 
 # Installation:
-Download node.js, npm, and inquire.
+Steps 1,2,3
 # Usage: 
-Enter node index.js into the terminal to answer the prompts
+Showing Usage
 # License:
 ![badge](https://img.shields.io/badge/license-MIT-orange)
 <br />
 This application is covered by the MIT license. 
 # Contributors 
-Alberto Londono
+I am the contributor
 # Tests:
-Ran trial and error functionality tests
+This is a test
 # Questions:
-Github Profile: [Github Profile](https://github.com/Guapguap)
+Github Profile: [Github Profile](https://github.com/Username)
 <br>
-Email me at: londono.alberto110@gmail.com
+Email me at: email123@gmail.com
 
