@@ -11,7 +11,7 @@ This is a command-line application that runs with Node.js that dynamically gener
 * [License](#license)
 * [Contributors](#contributors)
 * [Tests](#tests)
-* [Questions](#questions)
+* [Contact](#Contact)
 
 # Demo:
 
@@ -25,6 +25,10 @@ Then, fs.writeFile is used to generate your project's README.md file.
 
 # License:
 
-![badge](https://img.shields.io/badge/license-${data.license}-orange)
+![badge](https://img.shields.io/badge/license-MIT-orange)
 <br>
-This application is covered by the ${data.license} license. 
+This application is covered by the MIT license. 
+
+# Contact:
+Github Profile: <a src="https://github.com/Guapguap">https://github.com/Guapguap</a>
+Email me at: 
