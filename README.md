@@ -10,7 +10,7 @@ This is a command-line application that runs with Node.js that dynamically gener
 * [Usage](#usage)
 * [License](#license)
 * [Contributors](#contributors)
-* [Contributor + Contact](#Contributor + Contact)
+* [Contributor and Contact](#Contributor and Contact)
 
 # Demo:
 
