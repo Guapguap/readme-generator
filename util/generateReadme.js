@@ -2,7 +2,7 @@ const generateReadme = (data) => {
   return ` 
 # ${data.projectTitle}
 
-![badge](https://img.shields.io/badge/license-${data.license}-orange)<br />
+![badge](https://img.shields.io/badge/license-${data.license}-orange)
 
 # Description: 
 ${data.description}
