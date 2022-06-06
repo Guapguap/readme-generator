@@ -10,8 +10,7 @@ This is a command-line application that runs with Node.js that dynamically gener
 * [Usage](#usage)
 * [License](#license)
 * [Contributors](#contributors)
-* [Tests](#tests)
-* [Contact](#Contact)
+* [Contributor + Contact](#Contributor + Contact)
 
 # Demo:
 
@@ -29,6 +28,7 @@ Then, fs.writeFile is used to generate your project's README.md file.
 <br>
 This application is covered by the MIT license. 
 
-# Contact:
+# Contributor + Contact:
 Github Profile: <a src="https://github.com/Guapguap">https://github.com/Guapguap</a>
+<br>
 Email me at: londono.alberto110@gmail.com
