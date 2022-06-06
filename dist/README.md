@@ -1,10 +1,10 @@
  
-# Project Title
+# project title
 
 ![badge](https://img.shields.io/badge/license-MIT-orange)<br />
 
 # Description: 
-Project Description
+this is my description
 
 # Table of Contents
 * [Installation](#installation)
@@ -15,9 +15,9 @@ Project Description
 * [Questions](#questions)
 
 # Installation:
-Steps 1,2,3
+steps 1,2,3
 # Usage: 
-Showing Usage
+this is the usage
 # License:
 ![badge](https://img.shields.io/badge/license-MIT-orange)
 <br />
@@ -25,9 +25,9 @@ This application is covered by the MIT license.
 # Contributors 
 I am the contributor
 # Tests:
-This is a test
+this is the test
 # Questions:
-Github Profile: [Github Profile](https://github.com/Username)
+Github Profile: [Github Profile](https://github.com/username)
 <br>
-Email me at: email123@gmail.com
+Email me at: email@gmail.com
 
